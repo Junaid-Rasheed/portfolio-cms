@@ -4,3 +4,6 @@
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
+body {
+  background-color: #f8f8f8;
+}

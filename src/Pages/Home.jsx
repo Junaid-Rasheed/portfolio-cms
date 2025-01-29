@@ -1,20 +1,31 @@
 import React from "react";
 import HeroBanner from "../components/HeroBanner";
-import HomeFlex from "../components/HomeFlex";
-import HomeIntro from "../components/HomeIntro";
-import HomeKeyAchievement from "../components/HomeKeyAchievement";
+import Image1 from "../../src/assets/Snaps/32.jpg";
+import MeetMax from "../components/Home/MeetMax";
+import MaxEducation from "../components/Home/MaxEducation";
+import MaxSkills from "../components/Home/MaxSkills";
+import HoobiesActivities from "../components/Home/HoobiesActivities";
+import GivingBack from "../components/Home/GivingBack";
+import MyAncestry from "../components/Home/MyAncestry";
+import Personalitytype from "../components/Home/Personalitytype";
+
 function Home() {
   return (
     <>
       <HeroBanner
-        sectionName="Section 1"
-        sectionNo="01"
+        sectionName="01 - MEET MAX"
         pageTitle="Maxwell Blanksby"
-        description="High School Student at Catlin Gabel | Aspiring AI & Quantum Computing Expert | Innovator, Strategist, and STEM Enthusiast with a Passion for Cutting-Edge Technology."
+        Subtitle="HS Class of 2027"
+        Imagee={Image1}
+        PageTitle2=" PITCH DECK"
       />
-      <HomeFlex />
-      <HomeIntro />
-      <HomeKeyAchievement />
+      <MeetMax />
+      <MaxEducation />
+      <MaxSkills />
+      <HoobiesActivities />
+      <GivingBack />
+      <MyAncestry />
+      <Personalitytype />
     </>
   );
 }

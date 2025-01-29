@@ -1,4 +1,5 @@
 import React from "react";
+import { CiLocationOn, CiPhone, CiMail } from "react-icons/ci";
 
 function Footer() {
   return (
@@ -11,12 +12,7 @@ function Footer() {
           </a>
           . All Rights Reserved.
         </span>
-        <ul class="flex flex-wrap items-center mt-3 text-md  text-[#a9a9a9] dark:text-gray-400 sm:mt-0">
-          <li>
-            <a href="#" class="hover:underline me-4 md:me-6">
-              About
-            </a>
-          </li>
+        <ul class="hidden md:flex flex-wrap items-center mt-3 text-md  text-[#a9a9a9] dark:text-gray-400 sm:mt-0  ">
           <li>
             <a href="#" class="hover:underline me-4 md:me-6">
               Projects
